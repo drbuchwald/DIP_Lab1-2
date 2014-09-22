@@ -17,13 +17,13 @@ public class TipCalcManager {
         this.tip = tip;
     }
     
-    public double getFoodTip(QualityOfService serviceQuality, double billAmount){
+    public double gettipForFood(QualityOfService serviceQuality, double billAmount){
         
         tip.setTip(serviceQuality, billAmount);
         return tip.getTip();
     }
     
-    public double getBaggageTip(QualityOfService serviceQuality, double numberOfBags){
+    public double gettipForBaggage(QualityOfService serviceQuality, double numberOfBags){
         
         tip.setTip(serviceQuality, numberOfBags);
         return tip.getTip();
