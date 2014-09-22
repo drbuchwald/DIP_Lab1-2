@@ -17,9 +17,9 @@ public interface CalculateTip {
      */
     
     public static final double minimumBillAmount = 0.00;
-    public static final double poorService = 0.00;
-    public static final double fairService = 0.00;
-    public static final double goodService = 0.00;
+    public static final double poorService = 0.1;
+    public static final double fairService = 0.15;
+    public static final double goodService = 0.20;
     
     /**
      * 
